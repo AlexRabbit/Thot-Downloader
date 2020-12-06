@@ -10,9 +10,6 @@
 // @match       https://thotbook.tv/*
 // @match       https://thots.tv/*
 // @match       https://lewdweb.net/*
-
-
-
 // @require      https://code.jquery.com/jquery-3.3.1.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
 // @require      https://unpkg.com/file-saver@2.0.1/dist/FileSaver.min.js
@@ -138,12 +135,12 @@ var useSelect = false;
 //If you press 'OK' – you need to select text as name for the zip(you can click on text or select part of it)
 //If you press 'Cancel' – name for the zip will be generated automatically(default is 'thread name/post number.zip')
 //If this setted to 'false' = you pressed 'OK' ^
-var needConfirm = true;
+var needConfirm = false;
 
 //If 'true' – trying to get video links from iframes(like sendvid as example)
 //Tested only with sendvid for now
 //Can be very slow, because the script will need to send a separate request for every iframe(CORS is a pain)
-var getIFrames = true;
+var getIFrames = false;
 
 /* globals jQuery JSZip saveAs */
 
