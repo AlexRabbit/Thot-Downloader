@@ -7,7 +7,7 @@ When in forum click the download button (it takes some time as it download exter
 When in Gallery click the “Copy links to Clipboard” Button and then use JDownloader.
 
 
-Heres the script. (Use Greasemonkey or Tampermonkey).
+Heres the script. (Use Tampermonkey or wont work).
 | **Last Update** | **2020/DEC/06** |
 |--|--|
 |**JS**  | [**DOWNLOAD**](https://bit.ly/thotsJS) |
