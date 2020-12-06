@@ -7,9 +7,9 @@
 // @license      GPL3; https://www.gnu.org/licenses/gpl-3.0.en.html
 // @match        https://forum.lewdweb.net/*
 // @match        https://forum.sexy-egirls.com/*
-// @match       https://thotbook.tv/*
-// @match       https://thots.tv/*
-// @match       https://lewdweb.net/*
+// @match        https://thotbook.tv/*
+// @match        https://thots.tv/*
+// @match        https://lewdweb.net/*
 // @require      https://code.jquery.com/jquery-3.3.1.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
 // @require      https://unpkg.com/file-saver@2.0.1/dist/FileSaver.min.js
@@ -140,7 +140,7 @@ var needConfirm = false;
 //If 'true' – trying to get video links from iframes(like sendvid as example)
 //Tested only with sendvid for now
 //Can be very slow, because the script will need to send a separate request for every iframe(CORS is a pain)
-var getIFrames = false;
+var getIFrames = true;
 
 /* globals jQuery JSZip saveAs */
 
