@@ -5,10 +5,14 @@
 // @version      1.1.6
 // @icon         https://i.imgur.com/5xpgAny.jpg
 // @license      GPL3; https://www.gnu.org/licenses/gpl-3.0.en.html
+// @match        https://lewdweb.net/*
 // @match        https://forum.lewdweb.net/*
+// @match        https://sexy-egirls.com/*
 // @match        https://forum.sexy-egirls.com/*
+// @match        https://forum.thotbook.tv/*
 // @match        https://thotbook.tv/*
-// @match        https://thots.tv/*
+// @match        https://forum.thots.tv/*
+// @match        https://forum.thots.tv/*
 // @match        https://lewdweb.net/*
 // @require      https://code.jquery.com/jquery-3.3.1.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
@@ -16,20 +20,20 @@
 // @require      https://greasemonkey.github.io/gm4-polyfill/gm4-polyfill.js?v=a834d46
 // @noframes
 // @connect      self
+// @connect      forum.sexy-egirls.com
 // @connect      yiff.party
 // @connect      cyberdrop.me
 // @connect      cyberdrop.cc
 // @connect      cyberdrop.nl
 // @connect      sendvid.com
 // @connect      share.dmca.gripe
-// @connect      (zz.ht is blacklisted - please use cyberdrop.me)
+// @connect      zz.ht
 // @run-at       document-start
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
 // @grant        GM_download
 // ==/UserScript==
 
-//COPYGALLERY TO CLIPBOARD
 
 function copyStringToClipboard (str) {
     if (Array.isArray(str))
