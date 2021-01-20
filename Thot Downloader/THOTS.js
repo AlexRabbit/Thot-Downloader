@@ -14,6 +14,7 @@
 // @match        https://forum.thots.tv/*
 // @match        https://forum.thots.tv/*
 // @match        https://lewdweb.net/*
+// @match        https://kitty-kats.net/*
 // @require      https://code.jquery.com/jquery-3.3.1.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.5/jszip.min.js
 // @require      https://unpkg.com/file-saver@2.0.1/dist/FileSaver.min.js
