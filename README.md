@@ -1,5 +1,7 @@
 # Thot Downloader
 
+##NOT LONGER WORKS, LOOKING FOR A FIX.
+
 Download from sexy-egirls.com, forum.sexy-egirls.com, thotbook.tv, thots.tv, lewdweb.net.
 
 
