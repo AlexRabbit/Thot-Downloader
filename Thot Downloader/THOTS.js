@@ -2,13 +2,13 @@
 // @name         Thot Downloader
 // @author       ThotDev, DumbCodeGenerator, AlexRabbit
 // @description  Download galleries from Forums & Sites
-// @version      1.1.6
+// @version      2023
 // @icon         https://i.imgur.com/5xpgAny.jpg
 // @license      GPL3; https://www.gnu.org/licenses/gpl-3.0.en.html
 // @match        https://lewdweb.net/*
 // @match        https://forum.lewdweb.net/*
-// @match        https://sexy-egirls.com/*
-// @match        https://forum.sexy-egirls.com/*
+// @match        https://simpcity.su/*
+// @match        https://forum.simpcity.su/*
 // @match        https://forum.thotbook.tv/*
 // @match        https://thotbook.tv/*
 // @match        https://forum.thots.tv/*
@@ -29,6 +29,7 @@
 // @connect      sendvid.com
 // @connect      share.dmca.gripe
 // @connect      zz.ht
+// @connect      gofile.io
 // @run-at       document-start
 // @grant        GM.xmlHttpRequest
 // @grant        GM_xmlhttpRequest
